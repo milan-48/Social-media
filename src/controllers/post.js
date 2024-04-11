@@ -95,7 +95,7 @@ export const getPosts = async (req, res) => {
         perPage,
         total: count,
       },
-      updatedPosts,
+      posts,
       successful: true,
     });
   } catch (error) {
